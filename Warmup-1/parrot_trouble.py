@@ -1,2 +1,1 @@
-def parrot_trouble(talking, hour):
-    return talking and (hour < 7 or hour > 20)
+parrot_trouble=lambda t,h:t&~(6<h<21)
