@@ -2,7 +2,7 @@ import unittest
 import near_hundred
 
 
-class TestSleepIn(unittest.TestCase):
+class TestNearHundred(unittest.TestCase):
     def test93(self):
         self.assertTrue(near_hundred.near_hundred(93))
 
