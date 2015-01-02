@@ -1,2 +1,1 @@
-def sleep_in(weekday, vacation):
-    return vacation or not weekday
+sleep_in=lambda w,v:v|w^1
