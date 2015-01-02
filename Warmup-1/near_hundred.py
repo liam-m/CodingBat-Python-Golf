@@ -1,2 +1,1 @@
-def near_hundred(n):
-    return abs(n-100) <= 10 or abs(n-200) <= 10
+near_hundred=lambda n:89<n-100*(n>111)<111
