@@ -4,4 +4,4 @@ python:
   - "3.3"
   - "3.4"
 script:
- - python -m unittest discover
+ - python -m unittest discover Warmup-1
