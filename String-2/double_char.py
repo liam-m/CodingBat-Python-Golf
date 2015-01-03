@@ -1,5 +1,1 @@
-def double_char(str):
-    res = ''
-    for char in str:
-        res += char+char
-    return res
+double_char=lambda s:''.join(c+c for c in s)
