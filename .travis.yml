@@ -6,3 +6,4 @@ python:
 script:
  - python -m unittest discover Warmup-1
  - python -m unittest discover List-1
+ - python -m unittest discover String-2
