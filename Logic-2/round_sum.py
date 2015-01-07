@@ -1,9 +1,2 @@
-def round10(n):
-    m = n%10
-    if m < 5:
-        return n-m
-    else:
-        return n+(10-m)
-
-def round_sum(a, b, c):
-    return sum(map(round10, [a, b, c]))
+round10=lambda n:n-n%10+[10,0][n%10<5]
+round_sum=lambda*a:sum(map(round10,a))
