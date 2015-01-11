@@ -9,4 +9,5 @@ script:
  - python -m unittest discover List-2
  - python -m unittest discover String-1
  - python -m unittest discover String-2
+ - python -m unittest discover Logic-1
  - python -m unittest discover Logic-2
