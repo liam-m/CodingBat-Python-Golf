@@ -5,6 +5,7 @@ python:
   - "3.4"
 script:
  - python -m unittest discover Warmup-1
+ - python -m unittest discover Warmup-2
  - python -m unittest discover List-1
  - python -m unittest discover List-2
  - python -m unittest discover String-1
